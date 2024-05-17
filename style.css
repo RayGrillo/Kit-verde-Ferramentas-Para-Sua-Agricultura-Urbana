@@ -1,7 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    margin: 0;
+}
+
 :root {
     --branco: white;
     --preto: black;
+    --verde-1: #58935C;
     --cor-de-fundo: #1E4884;
     --cor-de-fundo-do-cabeçalho: #F2F2F2;
-    --cor-do-titulo: #9AE3A4;
+    --cor-do-nome-do-colegio: #004AAD;
+    --cor-do-titulo-principal: #9AE3A4;
+    --cor-do-titulo-topicos: #08DF40;
+}
+
+body {
+    font-family: "Questrial", sans-serif;
+    background-color: var(--cor-de-fundo);
+}
+
+p {
+    color: var(--branco);
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    padding-left: 40px;
+    padding: 10px;
+}
+
+.icone-do-colegio {
+    width: 100px;
+}
+
+.nome-do-colegio-2 {
+    color: var(--cor-do-nome-do-colegio);
+    margin: 30px 0 0 0;
+}
+
+.nome-do-colegio-3 {
+    color: var(--verde-1);
+    margin: 0;
+}
+
+.título-e-introdução-corpo {
+    margin: 0;
+    background-image: url(plano-de-fundo-titulo.png);
+    height: 467.4px;
+    background-size: cover;
+    position: relative;
+}
+
+.título-e-introdução-texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo {
+    color: var(--cor-do-titulo-principal);
+    margin: 20px;
+    text-align: center;
+}
+
+.introdução {
+    text-align: center;
 }
