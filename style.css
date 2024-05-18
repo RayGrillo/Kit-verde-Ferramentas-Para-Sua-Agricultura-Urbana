@@ -69,3 +69,26 @@ p {
 .introdução {
     text-align: center;
 }
+
+.conteudo {
+    background-color: var(--verde-1);
+    color: var(--branco);
+    text-align: center;
+    margin: 10px 15%;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.conteudo-titulo{
+    font-weight: normal;
+    padding: 10px;
+}
+
+.conteudo-lista {
+    list-style: none;
+    padding: 0 30px;
+}
+
+.conteudo-itens {
+    padding: 5px;
+}
