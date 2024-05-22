@@ -31,7 +31,6 @@ h2 {
 }
 
 p {
-    color: var(--branco);
     line-height: 20px;
 }
 
@@ -74,7 +73,7 @@ strong {
 }
 
 .título-e-introdução-corpo {
-    background-image: url(plano-de-fundo-titulo.png);
+    background-image: url(Imagens/plano-de-fundo-titulo.png);
     height: 467.4px;
     background-size: cover;
     position: relative;
@@ -98,7 +97,6 @@ strong {
     color: var(--branco);
     text-align: center;
     margin: 10px 15%;
-    padding: 10px;
     border-radius: 30px;
 }
 
@@ -212,6 +210,7 @@ strong {
     color: var(--cor-do-texto-rodape);
     display: flex;
     padding: 20px 40%;
+    text-align: center;
 }
 
 .icone-do-colegio-2 {
@@ -219,7 +218,11 @@ strong {
 }
 
 .rodape-texto {
-    text-align: center;
+    padding: 0 10px;
+}
+
+.creditos {
+    color: var(--cor-do-texto-rodape);
     position: relative;
-    transform: translateY(10%);
+    transform: translateY(13%);
 }
