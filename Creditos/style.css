@@ -33,6 +33,10 @@ p {
     margin: 10px 0;
 }
 
+strong {
+    color: var(--cor-do-texto-strong-rodape);
+}
+
 .cabeçalho {
     font-family: "Questrial", sans-serif;
     background-color: var(--branco);
@@ -55,7 +59,8 @@ p {
 }
 
 .creditos {
-    margin: 20px 15%;
+    padding: 20px 15%;
+
 }
 
 .titulo {
@@ -66,7 +71,7 @@ p {
     background-color: var(--cor-de-fundo-do-rodape);
     color: var(--cor-do-texto-rodape);
     display: flex;
-    padding: 20px 40%;
+    padding: 20px 36%;
     text-align: center;
 }
 
@@ -76,10 +81,12 @@ p {
 
 .rodape-texto {
     padding: 0 10px;
+    transform: translateY(11%);
 }
 
 .site-principal {
     color: var(--cor-do-texto-rodape);
     position: relative;
-    transform: translateY(31%);
+    transform: translateY(11%);
+    font-size: small;
 }

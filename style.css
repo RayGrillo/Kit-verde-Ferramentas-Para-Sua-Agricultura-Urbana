@@ -3,6 +3,8 @@
 
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -74,7 +76,7 @@ strong {
 
 .título-e-introdução-corpo {
     background-image: url(Imagens/plano-de-fundo-titulo.png);
-    height: 467.4px;
+    height: 468px;
     background-size: cover;
     position: relative;
 }
@@ -209,7 +211,7 @@ strong {
     background-color: var(--cor-de-fundo-do-rodape);
     color: var(--cor-do-texto-rodape);
     display: flex;
-    padding: 20px 40%;
+    padding: 20px 36%;
     text-align: center;
 }
 
@@ -219,10 +221,12 @@ strong {
 
 .rodape-texto {
     padding: 0 10px;
+    transform: translateY(11%);
 }
 
 .creditos {
     color: var(--cor-do-texto-rodape);
     position: relative;
-    transform: translateY(13%);
+    transform: translateY(11%);
+    font-size: small;
 }
