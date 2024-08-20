@@ -43,6 +43,7 @@ strong {
     display: flex;
     padding-left: 40px;
     padding: 10px;
+    text-align: left;
 }
 
 .icone-do-colegio {
